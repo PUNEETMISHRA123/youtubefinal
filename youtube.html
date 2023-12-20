@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--adding roboto font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    YouTube.com Clone
+  </title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/side-bar.css">
+</head>
+<body>
+<div class="header">
+  <div class="left-sec">
+   <img class="hamburger-menu" src="logo/hamburger-menu.svg" alt="">
+   <img class="youtube-logo" src="logo/youtube-logo.svg" alt="">
+  </div>
+
+
+  <div class="mid-sec">
+    <input class="search-class" type="text" placeholder="Search">
+    <button class="search-button">
+      <img class="search-icon"  src="logo/search.svg" alt="">
+      <div class="tooltip">Search</div>
+    </button>
+    <button class="voice-search-button">
+      <img class="voice-search-class" src="logo/voice-search-icon.svg"
+       alt="">
+       <div class="tooltip">your voice</div>
+    </button>
+  </div>
+
+
+  <div class="right-sec">
+    <div class="upload-icon-container">
+      <img class="upload-icon"
+      src="logo/upload.svg" alt="">
+      <div class="tooltip">Create</div>
+    </div>
+    <div class="youtube-app-container">
+    <a href="https://studio.youtube.com/channel/UCqId6lwiXRNkxWwqTSp2xjw/videos/upload?d=ud&filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D">
+   <img class="youtube-app-icon" 
+   src="logo/youtube-apps.svg" alt="">
+   </a>
+   <div class="tooltip">YouTube apps</div>
+   </div>
+   <div class="notification-icon-container">
+
+    <img class="notification-icon" 
+    src="logo/notifications.svg" alt="">
+    <div class="tooltip">notifications</div>
+     <div class="notification-count">9+</div>
+   </div>
+ 
+
+   <a href="https://www.youtube.com/channel/UCqId6lwiXRNkxWwqTSp2xjw">
+   <img class="my-channel-icon" 
+   src="channel-profile/my-profile12.jpg" alt="">
+  </a>
+  </div>
+</div>
+
+
+<div class="side-bar">
+ <div class="side-bar-link">
+  <img src="sidebar-logo/home.svg" alt="">
+  <div>Home</div>
+ </div>
+ <div class="side-bar-link">
+  <img src="sidebar-logo/explore.svg" alt="">
+  <div >Explore</div>
+ </div>
+ <div class="side-bar-link">
+  <img src="sidebar-logo/subscriptions.svg" alt="">
+  <div>Subscriptions</div>
+ </div>
+ <div class="side-bar-link">
+  <img src="sidebar-logo/originals.svg" alt="">
+  <div>Originals</div>
+ </div>
+ <div class="side-bar-link">
+  <img src="sidebar-logo/youtube-music.svg" alt="">
+  <div>YouTube Music</div>
+ </div>
+ <div class="side-bar-link">
+  <img src="sidebar-logo/library.svg" alt="">
+  <div>Library</div>
+ </div>
+</div>
+
+   <!--div basicallly eek contair provide karta hai jispe hmmm 
+    loog diiferent different chize store kaar skte hai -->
+  <div class="video-grid">
+  <div class="video-prev">
+    <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+        <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-1.webp"   alt="">
+    </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/c/mkbhd">
+        <img class="profile-picture"  src="channel-profile/channel-1.jpeg" alt="">
+      </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="channel-name">
+          Marques Brownlee
+        </p>
+        <p class="information">
+          3.4M views&#183;6 months ago
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="video-prev">
+   <!--row1-->
+    <div class="thumb-row">
+
+      <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+      <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-2.webp" alt="">
+      </a>
+
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+   <!--row2-->
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/c/markiplier">
+        <img class="profile-picture"  src="channel-profile/channel-2.jpeg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+          Try Not To Laugh Challenge #9
+        </p>
+        <p class="channel-name">
+          Markiplier
+        </p>
+        <p class="information">
+          19M views &#183;4 years ago
+        </p>
+    </div>  
+    </div>
+  </div>
+  
+
+  <div class="video-prev">
+    <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+      <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-3.webp" alt="">
+      </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/user/SSSniperWolf">
+        <img class="profile-picture"  src="channel-profile/channel-3.jpeg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+         Crazy Tik Toks Taken Moments Before DISASTER
+        </p>
+        <p class="channel-name">
+          SSSniperWolf
+        </p>
+        <p class="information">
+          12M views&#183;1 year ago
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="video-prev">
+   <!--row1-->
+    <div class="thumb-row">
+
+      <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+      <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-4.webp" alt="">
+      </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+   <!--row2-->
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/c/veritasium">
+        <img class="profile-picture"  src="channel-profile/channel-4.jpeg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+         The Simplest Math Problem No One Can Solve - Collatz Conjecture
+        </p>
+        <p class="channel-name">
+          Veritasium
+        </p>
+        <p class="information">
+          18M views &#183;4 months ago
+        </p>
+    </div>  
+    </div>
+  </div>
+
+  <div class="video-prev">
+    <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+      <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-5.webp" alt="">
+      </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/c/CSDojo">
+        <img class="profile-picture"  src="channel-profile/channel-5.jpeg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+          Kadane's Algorithm to Maximum Sum Subarray Problem
+        </p>
+        <p class="channel-name">
+          CS Dojo
+        </p>
+        <p class="information">
+          519K views&#183;5 years ago
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="video-prev">
+   <!--row1-->
+    <div class="thumb-row">
+
+      <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+      <img class="thumbanils-class" 
+      src="thumbnails/thumbnail-6.webp" alt="">
+    </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+   <!--row2-->
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+        <img class="profile-picture"  src="channel-profile/channel-6.jpeg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+         Anything You Can Fit In The Circle I’ll Pay For
+        </p>
+        <p class="channel-name">
+          MrBeast
+        </p>
+        <p class="information">
+          141M views &#183;1 year ago
+        </p>
+    </div>  
+    </div>
+  </div>
+
+
+  <div class="video-prev">
+   <!--row1-->
+    <div class="thumb-row">
+
+      <a href="https://www.youtube.com/watch?v=dpZCGRo5Ucw">
+      <img class="thumbanils-class" 
+      src="thumbnails/hq720.webp" alt="">
+      </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+   <!--row2-->
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww">
+        <img class="profile-picture"  src="channel-profile/profile-01.jpg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+          INSIDE THE JIHAD-CRISIS OF MALI (AFRICA)! 🇲🇱
+        </p>
+        <p class="channel-name">
+          Passenger Paramvir
+        </p>
+        <p class="information">
+          190K views &#183;15 hours ago
+        </p>
+    </div>  
+    </div>
+  </div>
+
+
+  <div class="video-prev">
+   <!--row1-->
+  
+    <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=p_3bT0epLGQ">
+      <img class="thumbanils-class" 
+      src="thumbnails/hq721.webp" alt="">
+      </a>
+      <div class="video-time">
+        14:20
+      </div>
+    </div>
+   <!--row2-->
+    <div class="video-info-grid">
+      <div class="profile-class">
+        <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+        <img class="profile-picture"  src="channel-profile/profile-02.jpg" alt="">
+        </a>
+      </div>
+      <div class="channel-info">
+        <p class="subline-comm">
+          Scariest Mountain Story - Left Alone In The Himalayas - Baljeet Kaur Recalls Real Horror Incident
+        </p>
+        <p class="channel-name">
+          TRS Clips हिंदी
+        </p>
+        <p class="information">
+          77K views &#183;6 days ago
+        </p>
+    </div>  
+    </div>
+  </div>
+  
+
+  <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=X56GLZhZQv0">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq722.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+        <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+         <img class="profile-picture"  src="channel-profile/profile-03.jpg" alt="">
+         </a>
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Who Was More Powerful Than Sri Krishna? - Untold Mahabharata
+         </p>
+         <p class="channel-name">
+          RAAAZ by BigBrainco.
+         </p>
+         <p class="information">
+          1.2M views &#183; 3 months ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=ODOlsfTDo0M">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq723.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+        <a href="https://www.youtube.com/user/businessinsider">
+         <img class="profile-picture"  src="channel-profile/profile-04.jpg" alt="">
+         </a>
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=btgL_Xc9I4Y">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq724.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+        <a href="https://www.youtube.com/c/Destinationtips">
+         <img class="profile-picture"  src="channel-profile/profile-05.jpg" alt="">
+         </a>
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=vqXLGX0szIQ">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq725.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+        <a href="https://www.youtube.com/teded">
+         <img class="profile-picture"  src="channel-profile/profile-06.jpg" alt="">
+         </a>
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=e2rqHaEBa4U&t=30s">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq726.webp" alt="">
+      </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-07.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=uzysg1ZThcY">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq727.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-08.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=GHUJG4uMffA">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq728.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-09.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=kjqJQFvDeBw">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq729.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-10.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=osfbrnmOpVU">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq730.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-11.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=b0o1oLW-7qc">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq731.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-12.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=8_hc2WqYqT8&t=13s">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq732.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-13.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=6_bKo7dUsac">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq733.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-14.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=ThlSnga3cE0">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq734.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-15.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+  
+   
+   <div class="video-prev">
+    <!--row1-->
+     <div class="thumb-row">
+      <a href="https://www.youtube.com/watch?v=Wf6oIrA2B4Y">
+       <img class="thumbanils-class" 
+       src="thumbnails/hq735.webp" alt="">
+       </a>
+       <div class="video-time">
+         14:20
+       </div>
+     </div>
+    <!--row2-->
+     <div class="video-info-grid">
+       <div class="profile-class">
+         <img class="profile-picture"  src="channel-profile/profile-16.jpg" alt="">
+       </div>
+       <div class="channel-info">
+         <p class="subline-comm">
+          Anything You Can Fit In The Circle I’ll Pay For
+         </p>
+         <p class="channel-name">
+           MrBeast
+         </p>
+         <p class="information">
+           141M views &#183;1 year ago
+         </p>
+     </div>  
+     </div>
+   </div>
+   
+
+</div>
+</body>
+</html>
